@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(fera.jpg); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+
+
+
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    width: 100%;
+}
+
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+
+.eleccion {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap:  10px;
+    margin-bottom: 20px;
+}
+
+.boton {
+    background-color: rgba(0, 255, 255, 0.8);
+    border: none;
+    padding: 20px;
+    margin: 0 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.boton:hover {
+    transform: scale(1.1);
+    background-color: rgba(0, 255, 255, 1);
+}
+
+.boton img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+
+.resultado {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.resultado p{
+    color: #fff;
+}
+
+.images {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.images strong {
+    color: #00FFFF;
+}
+.boton img{
+    width: 100px;
+    height: 100px;
+}
